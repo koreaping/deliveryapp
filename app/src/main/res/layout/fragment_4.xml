@@ -1,0 +1,110 @@
+<?xml version="1.0" encoding="utf-8"?>
+<FrameLayout xmlns:android="http://schemas.android.com/apk/res/android"
+    xmlns:app="http://schemas.android.com/apk/res-auto"
+    xmlns:tools="http://schemas.android.com/tools"
+    android:layout_width="match_parent"
+    android:layout_height="match_parent"
+    tools:context=".Fragment4">
+
+    <androidx.constraintlayout.widget.ConstraintLayout
+        android:layout_width="match_parent"
+        android:layout_height="match_parent">
+
+        <Button
+            android:id="@+id/logout"
+            android:layout_width="220dp"
+            android:layout_height="50dp"
+            android:layout_marginStart="150dp"
+            android:layout_marginEnd="150dp"
+            android:layout_marginBottom="120dp"
+            android:text="로그아웃"
+            app:layout_constraintBottom_toBottomOf="parent"
+            app:layout_constraintEnd_toEndOf="parent"
+            app:layout_constraintHorizontal_bias="0.504"
+            app:layout_constraintStart_toStartOf="parent" />
+
+        <ImageView
+            android:id="@+id/userIcon"
+            android:layout_width="184dp"
+            android:layout_height="128dp"
+            android:layout_marginStart="30dp"
+            android:layout_marginTop="90dp"
+            android:layout_marginEnd="20dp"
+            app:layout_constraintBottom_toTopOf="@+id/userInterface"
+            app:layout_constraintEnd_toStartOf="@+id/Nicname"
+            app:layout_constraintHorizontal_bias="0.7"
+            app:layout_constraintStart_toStartOf="parent"
+            app:layout_constraintTop_toTopOf="parent"
+            app:layout_constraintVertical_bias="0.045"
+            android:src="@drawable/user" />
+
+        <TextView
+            android:id="@+id/Nicname"
+            android:layout_width="wrap_content"
+            android:layout_height="wrap_content"
+            android:layout_marginEnd="100dp"
+            android:text="회원님"
+            android:textColor="#000000"
+            android:textSize="34sp"
+            app:layout_constraintBottom_toBottomOf="parent"
+            app:layout_constraintEnd_toEndOf="parent"
+            app:layout_constraintTop_toTopOf="parent"
+            app:layout_constraintVertical_bias="0.167" />
+
+        <Button
+            android:id="@+id/Token"
+            android:layout_width="220dp"
+            android:layout_height="50dp"
+            android:layout_marginStart="150dp"
+            android:layout_marginEnd="150dp"
+            android:layout_marginBottom="36dp"
+            android:text="token"
+            app:layout_constraintBottom_toTopOf="@+id/logout"
+            app:layout_constraintEnd_toEndOf="parent"
+            app:layout_constraintHorizontal_bias="0.495"
+            app:layout_constraintStart_toStartOf="parent" />
+
+        <Button
+            android:id="@+id/errorBtn"
+            android:layout_width="220dp"
+            android:layout_height="50dp"
+            android:layout_marginStart="150dp"
+            android:layout_marginEnd="150dp"
+            android:layout_marginBottom="36dp"
+            android:text="고객센터 문의"
+            app:layout_constraintBottom_toTopOf="@+id/Token"
+            app:layout_constraintEnd_toEndOf="parent"
+            app:layout_constraintHorizontal_bias="0.504"
+            app:layout_constraintStart_toStartOf="parent" />
+
+        <Button
+            android:id="@+id/userInterface"
+            android:layout_width="220dp"
+            android:layout_height="50dp"
+            android:layout_marginStart="150dp"
+            android:layout_marginEnd="150dp"
+            android:layout_marginBottom="36dp"
+            android:text="앱 사용법"
+            app:layout_constraintBottom_toTopOf="@+id/errorBtn"
+            app:layout_constraintEnd_toEndOf="parent"
+            app:layout_constraintHorizontal_bias="0.495"
+            app:layout_constraintStart_toStartOf="parent" />
+
+        <TextView
+            android:id="@+id/Interface"
+            android:layout_width="185dp"
+            android:layout_height="41dp"
+            android:layout_marginTop="20dp"
+            android:layout_marginEnd="12dp"
+            android:textColor="#000000"
+            android:textSize="24sp"
+            app:layout_constraintBottom_toBottomOf="parent"
+            app:layout_constraintEnd_toEndOf="parent"
+            app:layout_constraintHorizontal_bias="1.0"
+            app:layout_constraintStart_toEndOf="@+id/userIcon"
+            app:layout_constraintTop_toBottomOf="@+id/Nicname"
+            app:layout_constraintVertical_bias="0.0"
+            android:text="ID: ㅇㅇㅇ" />
+
+    </androidx.constraintlayout.widget.ConstraintLayout>
+</FrameLayout>

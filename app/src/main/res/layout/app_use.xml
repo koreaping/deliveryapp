@@ -1,0 +1,52 @@
+<?xml version="1.0" encoding="utf-8"?>
+<LinearLayout xmlns:android="http://schemas.android.com/apk/res/android"
+    android:layout_width="match_parent"
+    android:layout_height="match_parent"
+    android:orientation="vertical">
+
+    <TextView
+        android:layout_width="match_parent"
+        android:layout_height="wrap_content"
+        android:text="사용법"
+        android:textSize="50dp"
+        android:gravity="center"/>
+
+    <TextView
+        android:layout_width="match_parent"
+        android:layout_height="wrap_content"
+        android:textSize="30dp"
+        android:text="1. 토큰버튼을 눌러 서버에 전달"
+        android:gravity="center"/>
+
+    <TextView
+        android:layout_width="match_parent"
+        android:layout_height="wrap_content"
+        android:text="2. 첫번째 메뉴에서 갱신버튼을 눌러 문앞 이미지를 확인"
+        android:textSize="30dp"
+        android:gravity="center"/>
+
+    <TextView
+        android:layout_width="match_parent"
+        android:layout_height="wrap_content"
+        android:textSize="30dp"
+        android:text="3. 두번째 메뉴에서 현재 나의 택배 위치 조회"
+        android:gravity="center"/>
+
+    <TextView
+        android:layout_width="match_parent"
+        android:layout_height="wrap_content"
+        android:text="4. 도난 사고발생시 세번째 메뉴에서 긴급전화"
+        android:textSize="30dp"
+        android:gravity="center"/>
+
+    <Button
+        android:id="@+id/use_btn"
+        android:layout_width="match_parent"
+        android:layout_height="wrap_content"
+        android:textSize="30dp"
+        android:text="사용하러 가기"
+        android:background="@color/lightblue"/>
+
+
+
+</LinearLayout>
