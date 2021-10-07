@@ -1,0 +1,14 @@
+<?xml version="1.0" encoding="utf-8"?>
+
+<shape xmlns:android="http://schemas.android.com/apk/res/android"
+        android:padding="10dp"
+        android:shape="rectangle" >     //각모서리에
+
+    <solid android:color="@color/light_cyan"/>  // 내부 색 설정
+    <corners
+        android:topLeftRadius="12dp"
+    android:topRightRadius="12dp"
+    android:bottomLeftRadius="12dp"
+    android:bottomRightRadius="12dp"/>  //우측 하단
+
+</shape>

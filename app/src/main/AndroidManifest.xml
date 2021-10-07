@@ -12,14 +12,16 @@
         android:theme="@style/Theme.Notifi"
         android:hardwareAccelerated="true">
         <activity android:name=".findPassActivity"/>
-        <activity android:name=".userActivity"/>
-        <activity android:name=".registerActivity"/>
-        <activity android:name=".MainActivity">
+        <activity android:name=".userActivity">
             <intent-filter>
                 <action android:name="android.intent.action.MAIN" />
 
                 <category android:name="android.intent.category.LAUNCHER" />
             </intent-filter>
+        </activity>
+        <activity android:name=".registerActivity"/>
+        <activity android:name=".MainActivity">
+
         </activity>
         <service
             android:name=".MyFirebaseMessagingService"
